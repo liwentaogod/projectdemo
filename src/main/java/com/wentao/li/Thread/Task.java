@@ -5,7 +5,7 @@ public class Task implements Runnable {
     @Override
     public void run() {
         synchronized (MUTEX){
-            //test
+            //test test
             System.out.println(123);
         }
     }
