@@ -7,7 +7,9 @@ public class User implements Serializable {
     private static final long serialVersionUID = -6622958117423426980L;
 
     private String name;
+
     private int  age;
+
     private String telephone;
 
     public String getName() {
