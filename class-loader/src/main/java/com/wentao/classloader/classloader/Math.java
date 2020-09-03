@@ -1,6 +1,7 @@
-package com.example.jvm.javajvm;
+package com.wentao.classloader.classloader;
 
-import com.example.jvm.model.User;
+
+import com.wentao.classloader.model.User;
 
 public class Math {
     public static final int initData = 666;

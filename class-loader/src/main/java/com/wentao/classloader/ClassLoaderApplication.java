@@ -1,13 +1,13 @@
-package com.example.jvm;
+package com.wentao.classloader;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class JvmApplication {
+public class ClassLoaderApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(JvmApplication.class, args);
+        SpringApplication.run(ClassLoaderApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.jvm.model;
+package com.wentao.classloader.model;
 
 import java.io.Serializable;
 
