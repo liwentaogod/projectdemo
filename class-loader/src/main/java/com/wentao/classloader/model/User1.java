@@ -2,7 +2,7 @@ package com.wentao.classloader.model;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class User1 implements Serializable {
 
     private static final long serialVersionUID = -6622958117423426980L;
 
@@ -12,6 +12,18 @@ public class User implements Serializable {
 
     //
     private String telephone;
+
+
+    static {
+
+        System.out.println("加载 user1 类");
+    }
+
+    public String sout(){
+        System.out.println("打印数据1");
+        return null;
+    }
+
 
     public String getName() {
         return name;
